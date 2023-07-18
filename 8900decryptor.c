@@ -104,10 +104,6 @@ int main( int argc, char** argv )
 
 	data_begin = sizeof( header8900 );
 	data_len = header8900.sizeOfData;
-
-	printf( "iPhone 8900 decryptor by PmgR,\n");
-	printf( "extended and modified from original file by aljen.\n");
-        printf( "Thanks to hardware decrypt key found by by dev & elite teams.\n\n");
 	printf( "[*] filename	\t\t: %s\n", argv[ 1 ] );
 	printf( "[*] magic	\t\t: %s\n", header8900.magic );
 	printf( "[*] version	\t\t: %s\n", header8900.version );
